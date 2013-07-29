@@ -4,13 +4,67 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.robovm</groupId>
-  <artifactId>robovm-jfx78-compat</artifactId>
-  <name>RoboVM JavaFX Compatibility Library</name>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
 
+  <groupId>net.java.openjfx.backport</groupId>
+  <artifactId>openjfx-78-backport-compat</artifactId>
+  <version>1.8.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <version>1.0-SNAPSHOT</version>
+  <name>JavaFX 78 Backport Compatibility Library</name>
+
+  <url>https://github.com/robovm/robovm-jfx78-compat</url>
+  <description>
+    This is a library of JDK classes needed for the backport of OpenJFX 8 to run on Java 7. 
+  </description>
+  <inceptionYear>2013</inceptionYear>
+
+  <organization>
+    <name>OpenJFX Community</name>
+    <url>http://openjdk.java.net/projects/openjfx/</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>GNU General Public License, version 2, with the Classpath Exception</name>
+      <url>http://openjdk.java.net/legal/gplv2+ce.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>ntherning</id>
+      <name>Niklas Therning</name>
+      <email>niklas@therning.org</email>
+      <roles>
+        <role>Project Owner</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>zonski</id>
+      <name>Daniel Zwolenski</name>
+      <email>zonski@gmail.com</email>
+      <roles>
+        <role>Maven Deployer</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <scm>
+    <url>https://github.com/robovm/robovm-jfx78-compat</url>
+    <connection>scm:git:git://github.com/robovm/robovm-jfx78-compat.git </connection>
+    <developerConnection>scm:git:git@github.com:robovm/robovm-jfx78-compat.git</developerConnection>
+  </scm>
+
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/robovm/robovm-jfx78-compat/issues</url>
+  </issueManagement>
 
   <dependencies>
     <dependency>
