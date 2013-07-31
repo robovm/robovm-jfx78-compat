@@ -56,7 +56,7 @@
 
   <scm>
     <url>https://github.com/robovm/robovm-jfx78-compat</url>
-    <connection>scm:git:git://github.com/robovm/robovm-jfx78-compat.git </connection>
+    <connection>scm:git:git://github.com/robovm/robovm-jfx78-compat.git</connection>
     <developerConnection>scm:git:git@github.com:robovm/robovm-jfx78-compat.git</developerConnection>
   </scm>
 
